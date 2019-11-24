@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*access始まり*/
+ 
+
+
+ .header4{
+  height: 100px;
+ 	background-color: rgba(242, 235, 230, 0.5);
+ 
+}
+
+.belt{
+		background-color: #5ba63d;
+		margin-top: 0;
+		padding: 20px 0;
+}
+
+
+
+
+ul li a{
+ color: black;
+}
+ul a:hover{
+	text-shadow: 2px 2px 1px gray;
+	
+}
+ul li:hover{
+	text-decoration: underline;
+}
+.map{
+margin: 30px 0
+}
+.map img{
+	right: 50%;
+	left: 50%;
+	
+}
+
