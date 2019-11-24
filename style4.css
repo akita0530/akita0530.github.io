@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*BREAD*/
+
+.aiu{
+width: 900px;
+margin: auto;
+}
+
+.food{
+	width: 800px;
+	display: flex;
+ justify-content: space-around;
+ margin-bottom: 20px;
+ border-bottom: 3px double black;
+}
+
+.food img:hover{
+		transition-duration: 0.4s;
+		box-shadow: 10px 5px 5px 5px rgba(222, 223, 224,0.9);
+		transform: translate(1px,5px);
+		cursor: pointer;
+}
+
+.des{ 
+	margin-bottom: 20px;
+}
+.food-des{
+	width: 400px;
+	margin: auto;
+}
+
+.food-des h3{
+ color: #c46b0c;
+}
+
+@media(max-width: 769px){
+
+
+.food{
+	display: block!important;
+}
+
+
+}
