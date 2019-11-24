@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.news{
+ margin: 50px;
+ display: flex;
+ justify-content: center;
+}
+
+.new{
+	margin: 30px;
+	border: 5px dotted #cc5a08;
+}
+
+
+.food img{
+	border-radius: 5px;
+}
+
+
+
+
+
+@media(max-width: 769px){
+.news{
+	display: block;
+}
+}
