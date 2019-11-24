@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+.contact{
+ margin: 30px;
+ font-size: 20px;
+}
+
+
+dt{
+ display: inline-block;
+ margin: 15px;
+}
+
+
+dd{
+ display: inline-block;
+  margin: 15px;
+}
+
+textarea{
+	margin: 20px;
+}
+
+input[type="submit"]{
+	display: inline-block;
+	padding: 10px 50px;
+	font-size: 20px;
+	border-bottom: 4px solid gray;
+	border-radius: 3px;
+	transition-duration: 3s;
+}
+
+input[type="submit"]:active{
+	border-bottom: none;
+}
+input[type="submit"]:hover{
+	background-color: #929394;
+	font-size: 30px;
+	transition-duration: 1s;
+	transiton-property: text-shadow;
+	text-shadow: 2px 2px 1px gray;
+]
+
+
+
+/*メニューバー ドロップダウン*/
+@media(max-width: 769px){
+
+}
+
